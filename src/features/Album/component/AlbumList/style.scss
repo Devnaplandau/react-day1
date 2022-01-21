@@ -1,0 +1,9 @@
+.album-list {
+  display: flex;
+  flex-flow: row nowrap; // flex-direction + flex-wrap
+  overflow-y: scroll;
+  list-style: none;
+  li {
+    margin: 0 20px;
+  }
+}

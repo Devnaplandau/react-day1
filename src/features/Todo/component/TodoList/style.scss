@@ -1,0 +1,13 @@
+.todo-list {
+  & > li.complete {
+    font-style: italic;
+    color: #ccc;
+    text-decoration: line-through;
+  }
+  & > li {
+    cursor: pointer;
+    &:hover {
+      letter-spacing: 1px;
+    }
+  }
+}
